@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>What is Phishing ?</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+	 <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div  class="bg-model" id="content">
+		<div class="model-content">
+			<div class="close" onclick="closeNav2()">&times;</div>
+			<img class="img" src="../../contact.png" width="80" height="80" style="margin-top: 10px;">
+			<h5 style="font-weight: 700; margin-top: 10px; font-size: 25px;" >Contact Us</h5>
+			<h5 style="font-size: 20px;">Email- suraj_9648@rediffmail.com</h5>
+			
+		</div>
+	</div>
+	<header>
+		<div class="logo animate__animated animate__backInLeft animate__delay-1s"><a href="" style="text-decoration: none;">HACK N WIN</a></div>
+		<nav>
+			<ul class="animate__animated animate__backInRight animate__delay-2s">
+				<li><a href="" style="text-decoration: none;"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+				<li><a href="https://www.youtube.com/hacknwin" style="text-decoration: none;"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a></li>
+				<li><a href="#" style="text-decoration: none;"><i class="fa fa-archive" aria-hidden="true"></i> product</a></li>
+				<li onclick="openNav2()"><a href="#" style="text-decoration: none;"><i class="fa fa-envelope-o" aria-hidden="true"></i> contact</a></li>
+			</ul> 
+			<div id="mySidenav" class="sidenav">
+				<a href="#" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+				<a href="https://www.youtube.com/hacknwin"><i class="fa fa-youtube" aria-hidden="true"></i> Youtube</a>
+				<a href="#"><i class="fa fa-archive" aria-hidden="true"></i> product</a>
+				<a onclick="openNav2()" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contact</a>
+		  </div>
+		</nav>
+		<div class="menu-toggle animate__animated animate__bounceIn animate__slow 	3s animate__delay-2s"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span></i>
+		</div>
+	</header>
+<script>
+		function openNav() {
+ 		 document.getElementById("mySidenav").style.width = "50%";
+		}
+
+		function closeNav() {
+ 		 document.getElementById("mySidenav").style.width = "0";
+		}
+		function openNav2() {
+ 		 document.getElementById("content").style.display = 'flex';
+		}
+
+		function closeNav2() {
+ 		 document.getElementById("content").style.display = 'none';
+		}
+</script>
+
+<div class="container mt-5 pt-3">
+  <div class="row">
+    <div class="col-lg-8 main">
+      <h3 style="text-align: center; font-weight: 700;" class="m-4">How to Install Apache24</h3><br><br>
+      <h5><span> Step 1:</span>&nbsp;&nbsp;<span class="download"><a href="https://www.apachelounge.com/download/" style="text-decoration: none" target="_blank">&nbsp;<i class="fa fa-download" aria-hidden="true"></i>
+        Download&nbsp;</a></span>&nbsp;and install <span> Apache24 </span> for free.</h5>
+			<img src="1.png" style="width: 100%;"><br><br><br><br>
+			<h5><span> Step 2: </span>&nbsp;Extract Downloaded file in C Drive</h5>
+			<img src="2.png" style="width: 100%;"><br><br>
+			<h5><span>After Extract in C Drive</span></h5>
+			<img src="3.png" style="width: 100%;"><br><br><br>
+			<h5><span> Step 3: </span>&nbsp;Open <span>httpd.conf </span> File from conf folder</h5>
+			<img src="4.png" style="width: 100%;"><br><br><br>
+			<h5><span> Step 4: </span>&nbsp;Now Edit <span>httpd.conf </span> File with your favourite text editor</h5>
+			<h5>Now make this changes on httpd.conf file <span>Define SRVROOT "c:/Apache24"</span> and <span>Listen 8080</span></h5>
+			<img src="5.png" style="width: 100%;"><br><br>
+			<h5><span>Now go to the last line and add this Code</span></h5>
+			<h5 style="color: red;">		
+				&nbsp;AddHandler application/x-httpd-php .php<br>
+				&nbsp;AddType application/x-httpd-php .php .html<br>
+				&nbsp;LoadModule php7_module "c:/php7/php7apache2_4"<br>
+				&nbsp;PHPIniDir "c:/php7"</h5><br>
+			<img src="7.png" style="width: 100%;"><br><br>	
+			<h5><span>After make Changes save the file</span></h5><br>
+			<h5><span> Step 5: </span>&nbsp;Open <span> CMD As Administrator </span> and go to your apache24 bin folder. For that type <span> cd C:\Apache24\bin </span> in CMD and press enter. Now you are in bin folder</h5>
+			<img src="6.png" style="width: 100%;"><br><br><br>
+			<h5><span> Step 6: </span> Installing Apache24</h5>
+			<h5>For that type <span> httpd.exe -k install </span>in CMD</h5>
+			<img src="8.png" style="width: 100%;"><br><br><br>
+			<h5> <span> Step 7:</span> Run Apache24</h5>
+			<h5>For that go to your bin folder than double click on <span>ApacheMonitor.exe</span></h5>
+			<img src="9.png" style="width: 100%;"><br><br><br>
+			<h5> <span> Step 8:</span> Now Apache24 is Running</h5><br>
+			<img src="10.png" style="width: 100%;"><br><br><br>
+			<h5> <span> Step 9:</span> Now You are ready to host Files</h5>
+			<h5>Just host your files in<span> htdocs </span>Folder</h5>
+			<img src="11.png" style="width: 100%;"><br><br><br>
+			<h4 style="text-align: center;"><span>How to use</span></h4><br>
+			<h3>Open Your Browser and type in URL <span>127.0.0.1:8080</span> OR <span>localhost:8080</span></h3><br><br>
+			<h5 style="text-align: center; font-weight: 600;">&nbsp;Watch Full Tutorial Video On.<a href="https://youtu.be/zHvmNHrSCTk" style="text-decoration: none;"  target="_blank"> <i class="fa fa-youtube" aria-hidden="true" style="font-size: 50px; color: #c4302b;"></i></a></h5><br><br><br><br><br><br>
+	
+
+
+
+
+			
+
+
+
+    </div>
+    <div class="col-lg-4 main2">
+      <h3 style="text-align: center;">Column For Ads</h3>
+
+    </div>
+    <!-- Row End -->
+  </div>
+  <!-- Container End -->
+</div>
+
+</body>
+</html>
