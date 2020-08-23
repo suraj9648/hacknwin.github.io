@@ -52,13 +52,16 @@ h4{
 }
 
 header{
-  position: absolute;
+    
   top: 0;
   left: 0;
   padding: 0 100px;
-  width: 100%;
-  background: #262626;
+  /* width: 100%; */
+  background-color: #262626;
   box-sizing: border-box;
+  border: 2px solid black;
+  height: 50px;
+  margin: 60px;  
 
 }
 .col-lg-4{
@@ -196,11 +199,22 @@ header ul li a:active{
 
 /* Css for pop up end */
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  
+}
+
+
 
 @media screen and (max-width:991px) {
   header{
     padding: 0 20px;
-  } 
+    margin: 0px;
+  }
    .sidenav {padding-top: 25px;}
    .sidenav a {font-size: 20px;}
    .menu-toggle {
@@ -230,6 +244,11 @@ header ul li a:active{
 }
 
 @media screen and (max-width:576px){
+
+  header{
+    padding: 0 20px;
+    margin: 0px;
+  }
   .card{
     width: 80%;
     border: 1px solid #ccc;
